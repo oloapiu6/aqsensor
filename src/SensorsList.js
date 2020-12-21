@@ -7,14 +7,6 @@ import { Tag } from 'antd'
 import { Avatar } from 'antd'
 const { Search } = Input
 
-const data = [
-  'Racing car sprays burning fuel into crowd.',
-  'Japanese princess to wed commoner.',
-  'Australian walks 100km after outback crash.',
-  'Man charged over missing wedding girl.',
-  'Los Angeles battles huge wildfires.',
-];
-
 class SensorsList extends React.Component {
 	constructor() {
 		super();
