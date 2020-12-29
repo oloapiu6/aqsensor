@@ -21,10 +21,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className = 'pt4 pb0' style={{backgroundColor: "#F1F9FF"}}>
+      <div className = 'pv2' style={{backgroundColor: "#F1F9FF"}}>
         <div className = 'mw7 center tc mb2'>
-          <h1 className='f1 tc' style={{color: '#275476'}}>AIR QUALITY RANKING</h1>
-          <p className='f4 tc' >Places with high particulate matter (PM2.5) pollution</p>
+          <h1 className='f1 tc mb1' style={{color: '#275476'}}>AIR QUALITY RANKING</h1>
+          <h2 className='f4 tc' >Places with high particulate matter (PM2.5) pollution</h2>
+          <p>Data from <a href="https://clarity.io/" style={{textDecoration: "none"}}>clarity.io</a></p>
         </div>
         <div className = 'mw7 center'>
           <SimpleMap selectedSensor={this.state.selectedSensor}/>
