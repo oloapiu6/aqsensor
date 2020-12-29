@@ -80,7 +80,7 @@ class SensorsList extends React.Component {
 				          description = {<TimeAgo date={item.time}/>}
 				          avatar = {<Avatar style={{ backgroundColor: '#595959'}}>#{item.rank}</Avatar>}
 				        />
-				        <div>{Math.round(item.characteristics.pm2_5ConcMass.value)} µg/m3 <Tag color={calculatePm25AQI(item.characteristics.pm2_5ConcMass.value)[1]}>{calculatePm25AQI(item.characteristics.pm2_5ConcMass.value)[0]} AQI</Tag></div>
+				        <div>{Math.round(item.characteristics.pm2_5ConcMass.value)} µg/m<sup>3</sup> <Tag color={calculatePm25AQI(item.characteristics.pm2_5ConcMass.value)[1]}>{calculatePm25AQI(item.characteristics.pm2_5ConcMass.value)[0]} AQI</Tag></div>
 				    </List.Item>
 			      )}
 			    />

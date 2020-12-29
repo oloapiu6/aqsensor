@@ -41,9 +41,9 @@ function MapControl({ selectedSensor }) {
       <Marker position={position} icon = {icon}>
         <Tooltip direction='bottom' permanent>
           <div className='tc'>
-          <h1 className='pv0 ph5'>{name}</h1>
+          <h1 className='pv0 ph5' style={{color: '#275476'}}>{name}</h1>
           <div className='pv0' ><p className='f5 b'>AQI: {aqi}</p></div>
-          <div>PM2.5 Concentration: {pm2_5Conc} µg/m3</div>
+          <div>PM2.5 Concentration: {pm2_5Conc} µg/m<sup>3</sup></div>
           </div>
         </Tooltip>
       </Marker>
