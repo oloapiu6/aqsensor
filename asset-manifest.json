@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aqsensor/static/css/main.92a17323.chunk.css",
-    "main.js": "/aqsensor/static/js/main.492a7674.chunk.js",
-    "main.js.map": "/aqsensor/static/js/main.492a7674.chunk.js.map",
+    "main.js": "/aqsensor/static/js/main.3804da98.chunk.js",
+    "main.js.map": "/aqsensor/static/js/main.3804da98.chunk.js.map",
     "runtime-main.js": "/aqsensor/static/js/runtime-main.3a0130a6.js",
     "runtime-main.js.map": "/aqsensor/static/js/runtime-main.3a0130a6.js.map",
     "static/css/2.26bcdc4d.chunk.css": "/aqsensor/static/css/2.26bcdc4d.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.26bcdc4d.chunk.css",
     "static/js/2.08b716a7.chunk.js",
     "static/css/main.92a17323.chunk.css",
-    "static/js/main.492a7674.chunk.js"
+    "static/js/main.3804da98.chunk.js"
   ]
 }
